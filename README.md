@@ -1,6 +1,8 @@
 # stableRoommatesApp
 An R Shiny deployment for solving the stable roommates problem.
 
+Original deployment is here: https://zxtonizx.shinyapps.io/students/
+
 To deploy this in your own R Shiny instance create an R file with the following script and run:
 
 
@@ -20,7 +22,7 @@ rsconnect::setAccountInfo(name='INSERT_NAME_EHERE',
                           token='INSERT_TOKEN_HERE',
                           secret='INSERT_SECRET_HERE')
 
-#connect to matchingMarkets package
+#connect to matchingMarkets devtools
 devtools::install_github("thiloklein/matchingMarkets")
 
 #deploy
