@@ -26,6 +26,8 @@ ui <- fluidPage(
       p("Please note the following: Excel files should be uploaded with preferences for each study on sheet 1, 2 and 3 respectively. The order of the student headings must be the same for each sheet. Please send any questions or comments to zxtonizx@hotmail.com. If you would like a similar app made, feel free to get in touch."),
       p("The problem this tool solves is famously known as the Stable Roommates Problem."),
       
+      p("For developers: https://github.com/zxtonizx/stableRoommatesApp."),
+      
       # Horizontal line ----
       tags$hr(),
       
