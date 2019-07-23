@@ -4,8 +4,7 @@ An R Shiny deployment for solving the stable roommates problem.
 Original deployment is here: https://zxtonizx.shinyapps.io/students/
 
 To deploy this in your own R Shiny instance create an R file with the following script and run:
-
-
+```
 #install libraries
 library(matchingMarkets)
 library(shiny)
@@ -27,3 +26,7 @@ devtools::install_github("thiloklein/matchingMarkets")
 
 #deploy
 rsconnect::deployApp("INSERT_PATH_HERE_CONTAINING_SERVER_UI_EXAMPLE_FILES", appName = "INSERT_APPNAME")
+```
+
+# Credit
+https://github.com/thiloklein/matchingMarkets
