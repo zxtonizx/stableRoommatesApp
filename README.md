@@ -26,5 +26,4 @@ rsconnect::setAccountInfo(name='INSERT_NAME_EHERE',
 devtools::install_github("thiloklein/matchingMarkets")
 
 #deploy
-rsconnect::deployApp("INSERT_PATH_HERE_CONTAINING_SERVER_UI_EXAMPLE_FILES")
-y #yes please deploy!
+rsconnect::deployApp("INSERT_PATH_HERE_CONTAINING_SERVER_UI_EXAMPLE_FILES", appName = "INSERT_APPNAME")
